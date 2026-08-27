@@ -1,119 +1,2953 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Homebase Gardens Hotel & Tours — stay, dine and explore Nakuru from one welcoming base.">
-<meta name="theme-color" content="#123d2d">
-<title>Homebase Gardens Hotel & Tours | Nakuru</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="topbar"><div class="container topbar-inner"><span><i class='bx bx-map'></i> Kiamunyi, Nakuru, Kenya</span><div class="toplinks"><a href="tel:+254716109785"><i class='bx bx-phone'></i>+254 716 109 785</a><a href="mailto:info@homebasegardens.co.ke"><i class='bx bx-envelope'></i>info@homebasegardens.co.ke</a><a class="top-wa" href="https://wa.me/254716109785" target="_blank" rel="noopener"><i class='bx bxl-whatsapp'></i> WhatsApp</a></div></div></div>
-<header class="site-header" id="header"><div class="container nav-wrap">
-<a class="brand" href="index.html"><img src="logo.png" alt="Homebase Gardens Hotel & Tours"></a>
-<nav class="nav" id="nav">
-<a href="index.html">Home</a><a href="#discover">Discover Nakuru</a><a href="#stay">Accommodation</a><a href="#dining">Dining</a><a href="#experiences">Experiences</a><a href="#events">Meetings & Events</a><a href="gallery.html">Gallery</a><a href="#contact">Contact</a>
-<div class="nav-account"><a class="nav-login" href="#booking">Enquire</a><a class="nav-book" href="#booking"><i class='bx bx-calendar-check'></i> Book Now</a></div>
-</nav>
-<button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><i class='bx bx-menu'></i></button>
-</div></header>
+    <meta charset="utf-8">
 
-<main>
-<section class="hero-sarova" id="home">
-<div class="hero-media" style="background-image:url('gallery-02.jpg')"></div><div class="hero-shade"></div>
-<div class="container hero-content">
-<div class="hero-copy">
-<div class="hero-rating"><span class="stars"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i></span><b>5.0</b><span>Guest Experience</span></div>
-<span class="hero-kicker">WELCOME TO HOMEBASE GARDENS</span>
-<h1>Stay well. Explore more. Feel at home in Nakuru.</h1>
-<p>A welcoming place to stay, dine and discover Nakuru — with warm hospitality and everything you need close at hand.</p>
-<div class="hero-actions"><a class="btn btn-gold" href="#booking">Check your stay <i class='bx bx-right-arrow-alt'></i></a><a class="btn btn-outline-light" href="#stay">Explore our rooms</a></div>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Homebase Gardens Hotel & Tours — stay, dine and explore Nakuru from one welcoming base."
+    >
+
+    <meta
+        name="theme-color"
+        content="#123d2d"
+    >
+
+    <title>Homebase Gardens Hotel & Tours | Nakuru</title>
+
+    <!-- =========================================================
+         FONTS
+    ========================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- =========================================================
+         ICONS
+    ========================================================== -->
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- =========================================================
+         MAIN CSS
+    ========================================================== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =============================================================
+     TOP BAR
+============================================================== -->
+<div class="topbar">
+
+    <div class="container topbar-inner">
+
+        <span>
+            <i class="bx bx-map"></i>
+            Kiamunyi, Nakuru, Kenya
+        </span>
+
+        <div class="toplinks">
+
+            <a href="tel:+254716109785">
+                <i class="bx bx-phone"></i>
+                +254 716 109 785
+            </a>
+
+            <a href="mailto:info@homebasegardens.co.ke">
+                <i class="bx bx-envelope"></i>
+                info@homebasegardens.co.ke
+            </a>
+
+            <a
+                class="top-wa"
+                href="https://wa.me/254716109785"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="bx bxl-whatsapp"></i>
+                WhatsApp
+            </a>
+
+        </div>
+
+    </div>
+
 </div>
-<div class="hero-booking">
-<div class="hb-title"><span>PLAN YOUR ESCAPE</span><strong>Your stay starts here.</strong></div>
-<form id="heroBookingForm">
-<label>Arrival<input type="date" name="booking_date" required></label><label>Guests<input type="number" name="guests" min="1" value="2" required></label><label>Your name<input type="text" name="name" placeholder="Full name" required></label><label>Phone<input type="tel" name="phone" placeholder="07xx xxx xxx" required></label>
-<button class="btn btn-gold full" type="submit">Check Availability <i class='bx bx-search'></i></button>
-</form><small>Prefer a quick answer? <a href="https://wa.me/254716109785">Chat with us on WhatsApp.</a></small>
-</div></div>
-<div class="hero-scroll-cue" aria-hidden="true"><span>Explore</span><i class="bx bx-chevron-down"></i></div>
-<div class="hero-bottom"><div class="container"><span><i class='bx bx-map-pin'></i> Kiamunyi • Nakuru</span><span><i class='bx bx-star'></i> 5-star guest experience</span><span><i class='bx bx-time-five'></i> Genuine Kenyan hospitality</span></div></div>
+
+
+<!-- =============================================================
+     HEADER / NAVIGATION
+============================================================== -->
+<header class="site-header" id="header">
+
+    <div class="container nav-wrap">
+
+        <a
+            class="brand"
+            href="index.html"
+            aria-label="Homebase Gardens Hotel & Tours home"
+        >
+            <img
+                src="logo.png"
+                alt="Homebase Gardens Hotel & Tours"
+            >
+        </a>
+
+
+        <nav
+            class="nav"
+            id="nav"
+            aria-label="Main navigation"
+        >
+
+            <a href="index.html">Home</a>
+
+            <a href="#discover">Discover Nakuru</a>
+
+            <a href="#stay">Accommodation</a>
+
+            <a href="#dining">Dining</a>
+
+            <a href="#experiences">Experiences</a>
+
+            <a href="#events">Meetings &amp; Events</a>
+
+            <a href="gallery.html">Gallery</a>
+
+            <a href="#contact">Contact</a>
+
+
+            <div class="nav-account">
+
+                <a
+                    class="nav-login"
+                    href="#booking"
+                >
+                    Enquire
+                </a>
+
+                <a
+                    class="nav-book"
+                    href="#booking"
+                >
+                    <i class="bx bx-calendar-check"></i>
+                    Book Now
+                </a>
+
+            </div>
+
+        </nav>
+
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="nav"
+        >
+            <i class="bx bx-menu"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =============================================================
+     MAIN CONTENT
+============================================================== -->
+<main>
+
+
+<!-- =============================================================
+     HERO
+============================================================== -->
+<section
+    class="hero-sarova"
+    id="home"
+>
+
+    <div
+        class="hero-media"
+        style="background-image:url('gallery-02.jpg')"
+        aria-hidden="true"
+    ></div>
+
+    <div
+        class="hero-shade"
+        aria-hidden="true"
+    ></div>
+
+
+    <div class="container hero-content">
+
+        <!-- HERO COPY -->
+        <div class="hero-copy">
+
+            <div class="hero-rating">
+
+                <span
+                    class="stars"
+                    aria-label="5 out of 5 stars"
+                >
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </span>
+
+                <b>5.0</b>
+
+                <span>Guest Experience</span>
+
+            </div>
+
+
+            <span class="hero-kicker">
+                WELCOME TO HOMEBASE GARDENS
+            </span>
+
+
+            <h1>
+                Stay well. Explore more. Feel at home in Nakuru.
+            </h1>
+
+
+            <p>
+                A welcoming place to stay, dine and discover Nakuru —
+                with warm hospitality and everything you need close at hand.
+            </p>
+
+
+            <div class="hero-actions">
+
+                <a
+                    class="btn btn-gold"
+                    href="#booking"
+                >
+                    Check your stay
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+
+                <a
+                    class="btn btn-outline-light"
+                    href="#stay"
+                >
+                    Explore our rooms
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- HERO BOOKING FORM -->
+        <div class="hero-booking">
+
+            <div class="hb-title">
+
+                <span>
+                    PLAN YOUR ESCAPE
+                </span>
+
+                <strong>
+                    Your stay starts here.
+                </strong>
+
+            </div>
+
+
+            <form
+                id="heroBookingForm"
+                novalidate
+            >
+
+                <label for="heroBookingDate">
+                    Arrival
+
+                    <input
+                        id="heroBookingDate"
+                        type="date"
+                        name="booking_date"
+                        required
+                    >
+                </label>
+
+
+                <label for="heroGuests">
+                    Guests
+
+                    <input
+                        id="heroGuests"
+                        type="number"
+                        name="guests"
+                        min="1"
+                        value="2"
+                        required
+                    >
+                </label>
+
+
+                <label for="heroName">
+                    Your name
+
+                    <input
+                        id="heroName"
+                        type="text"
+                        name="name"
+                        placeholder="Full name"
+                        autocomplete="name"
+                        required
+                    >
+                </label>
+
+
+                <label for="heroPhone">
+                    Phone
+
+                    <input
+                        id="heroPhone"
+                        type="tel"
+                        name="phone"
+                        placeholder="07xx xxx xxx"
+                        autocomplete="tel"
+                        required
+                    >
+                </label>
+
+
+                <button
+                    class="btn btn-gold full"
+                    type="submit"
+                >
+                    Check Availability
+                    <i class="bx bx-search"></i>
+                </button>
+
+            </form>
+
+
+            <small>
+                Prefer a quick answer?
+
+                <a
+                    href="https://wa.me/254716109785"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Chat with us on WhatsApp.
+                </a>
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="hero-scroll-cue"
+        aria-hidden="true"
+    >
+        <span>Explore</span>
+        <i class="bx bx-chevron-down"></i>
+    </div>
+
+
+    <div class="hero-bottom">
+
+        <div class="container">
+
+            <span>
+                <i class="bx bx-map-pin"></i>
+                Kiamunyi • Nakuru
+            </span>
+
+            <span>
+                <i class="bx bx-star"></i>
+                5-star guest experience
+            </span>
+
+            <span>
+                <i class="bx bx-time-five"></i>
+                Genuine Kenyan hospitality
+            </span>
+
+        </div>
+
+    </div>
+
 </section>
 
-<section class="service-strip"><div class="container service-grid"><a href="#stay"><i class='bx bx-bed'></i><span><b>Stay</b><small>Restful rooms</small></span><i class='bx bx-chevron-right'></i></a><a href="#dining"><i class='bx bx-restaurant'></i><span><b>Dining</b><small>Fresh food & easy moments</small></span><i class='bx bx-chevron-right'></i></a><a href="#experiences"><i class='bx bx-map-alt'></i><span><b>Explore</b><small>Nakuru adventures</small></span><i class='bx bx-chevron-right'></i></a><a href="#events"><i class='bx bx-calendar-event'></i><span><b>Events</b><small>Meetings & celebrations</small></span><i class='bx bx-chevron-right'></i></a></div></section>
 
-<section class="section priority-marketplace" id="discover"><div class="container"><div class="priority-head reveal"><div><span class="eyebrow">DISCOVER HOMEBASE</span><h2>Stay, dine & explore — all from one Homebase.</h2></div><p>Settle in, explore Nakuru and take care of the little things — all from one convenient base.</p></div><div class="priority-grid reveal">
-<a class="priority-card priority-tour" href="#experiences"><span class="priority-no">01</span><i class='bx bx-map-alt'></i><div><small>TOUR & TRAVEL</small><h3>See more of Nakuru</h3><p>Wildlife, nature, local discoveries and tailor-made trips for every kind of traveller.</p><strong>Plan an adventure <i class='bx bx-right-arrow-alt'></i></strong></div></a>
-<a class="priority-card priority-stay" href="#stay"><span class="priority-no">02</span><i class='bx bx-bed'></i><div><small>ACCOMMODATION</small><h3>Settle in & stay awhile</h3><p>A welcoming base for business, family getaways, weekends and group travel.</p><strong>View our rooms <i class='bx bx-right-arrow-alt'></i></strong></div></a>
-<a class="priority-card priority-market" href="#market"><span class="priority-no">03</span><i class='bx bx-store-alt'></i><div><small>MINI-MARKET</small><h3>Pick up the essentials</h3><p>Keep everyday essentials close at hand during your stay.</p><strong>Discover essentials <i class='bx bx-right-arrow-alt'></i></strong></div></a>
-</div></div></section>
+<!-- =============================================================
+     SERVICE STRIP
+============================================================== -->
+<section class="service-strip">
 
-<section class="section mini-market" id="market"><div class="container market-wrap"><div><span class="eyebrow">MINI-MARKET</span><h2>Everyday essentials for a more comfortable stay.</h2><p>A convenient place for groceries, household essentials and those last-minute things you need while you are away.</p><a class="btn btn-green" href="#booking">Make an enquiry <i class='bx bx-right-arrow-alt'></i></a></div><div class="market-points" style="background-image:url('gallery-02.jpg')"><div><i class='bx bx-check'></i><span><b>Local & convenient</b>Find useful everyday essentials close by.</span></div><div><i class='bx bx-check'></i><span><b>Easy enquiries</b>Ask first, plan ahead and visit with confidence.</span></div><div><i class='bx bx-check'></i><span><b>A marketplace that grows</b>More products and trusted local businesses can be added over time.</span></div></div></div></section>
+    <div class="container service-grid">
 
-<section class="section intro-premium" style="background-image:url('gallery-01.jpg')"><div class="container two-col-intro"><div><span class="eyebrow">THE HOMEBASE EXPERIENCE</span><h2>A better stay,<br><em>grounded in Nakuru.</em></h2></div><div><p>Homebase Gardens is a welcoming base for comfortable stays, easy dining, local experiences and time well spent in Nakuru.</p><p class="muted">Whether you are here for business, a family getaway, a celebration or a safari adventure, Homebase Gardens gives you a comfortable place to slow down — and a convenient base for discovering Nakuru.</p><a class="text-btn" href="#booking">Plan your visit <i class='bx bx-right-arrow-alt'></i></a></div></div></section>
+        <a href="#stay">
+            <i class="bx bx-bed"></i>
 
-<section class="section stay-premium" id="stay"><div class="container"><div class="section-head-premium reveal"><div><span class="eyebrow">ACCOMMODATION</span><h2>Rooms made for<br><em>real rest.</em></h2></div><div><p>Choose the room that fits your trip. Send us an enquiry for current rates, availability and a smooth arrival.</p><a class="text-btn" href="#booking">Check rates <i class='bx bx-right-arrow-alt'></i></a></div></div>
-<div class="room-grid premium-rooms">
-<article class="room-card premium-room"><div class="room-photo" style="background-image:url('gallery-01.jpg')"><span class="room-number">01</span><span class="room-tag"><i class='bx bx-star'></i> A guest favourite</span></div><div class="room-body"><span class="card-kicker">HOMEBASE STAY</span><h3>Comfort Room</h3><p>A calm, comfortable room for short stays, business trips and easy weekends in Nakuru.</p><div class="amenity-row"><span><i class='bx bx-wifi'></i> Wi-Fi</span><span><i class='bx bx-coffee'></i> Breakfast</span><span><i class='bx bx-check-shield'></i> Comfort</span></div><div class="listing-actions"><a class="btn btn-wa" href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20a%20Comfort%20Room."><i class='bx bxl-whatsapp'></i> WhatsApp enquiry</a><a class="btn btn-gold room-action" href="#booking" data-room="Comfort Room"><i class='bx bx-calendar-check'></i> Check availability</a></div></div></article>
-<article class="room-card premium-room"><div class="room-photo" style="background-image:url('gallery-03.jpg')"><span class="room-number">02</span><span class="room-tag"><i class='bx bx-star'></i> A guest favourite</span></div><div class="room-body"><span class="card-kicker">HOMEBASE STAY</span><h3>Family Stay</h3><p>A practical, welcoming option when you are travelling with family or friends.</p><div class="amenity-row"><span><i class='bx bx-wifi'></i> Wi-Fi</span><span><i class='bx bx-coffee'></i> Breakfast</span><span><i class='bx bx-check-shield'></i> Comfort</span></div><div class="listing-actions"><a class="btn btn-wa" href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20a%20Family%20Stay."><i class='bx bxl-whatsapp'></i> WhatsApp enquiry</a><a class="btn btn-gold room-action" href="#booking" data-room="Family Stay"><i class='bx bx-calendar-check'></i> Check availability</a></div></div></article>
-<article class="room-card premium-room"><div class="room-photo" style="background-image:url('gallery-06.jpg')"><span class="room-number">03</span><span class="room-tag"><i class='bx bx-star'></i> A guest favourite</span></div><div class="room-body"><span class="card-kicker">HOMEBASE STAY</span><h3>Garden Stay</h3><p>A relaxed base for travellers who want comfort, convenience and a welcoming atmosphere.</p><div class="amenity-row"><span><i class='bx bx-wifi'></i> Wi-Fi</span><span><i class='bx bx-coffee'></i> Breakfast</span><span><i class='bx bx-check-shield'></i> Comfort</span></div><div class="listing-actions"><a class="btn btn-wa" href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20a%20Garden%20Stay."><i class='bx bxl-whatsapp'></i> WhatsApp enquiry</a><a class="btn btn-gold room-action" href="#booking" data-room="Garden Stay"><i class='bx bx-calendar-check'></i> Check availability</a></div></div></article>
-</div></div></section>
+            <span>
+                <b>Stay</b>
+                <small>Restful rooms</small>
+            </span>
 
-<section class="section experience-premium" id="experiences"><div class="container"><div class="section-head-premium light reveal"><div><span class="eyebrow eyebrow-gold">EXPERIENCES</span><h2>Go beyond the<br><em>front door.</em></h2></div><div><p>Discover wildlife, landscapes and local highlights around Nakuru with experiences planned around your stay.</p></div></div><div class="experience-grid">
-<article class="experience-card"><div class="experience-photo" style="background-image:url('gallery-14.jpg')"></div><div class="experience-body"><span>WILDLIFE & NATURE</span><h3>Lake Nakuru & wildlife</h3><p>Make time for the landscapes and wildlife that make the Nakuru region special.</p><div class="experience-actions"><a class="experience-wa" href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20Lake%20Nakuru%20and%20wildlife."><i class='bx bxl-whatsapp'></i> WhatsApp</a><a href="#booking">Plan this adventure <i class='bx bx-right-arrow-alt'></i></a></div></div></article>
-<article class="experience-card"><div class="experience-photo" style="background-image:url('gallery-16.jpg')"></div><div class="experience-body"><span>LOCAL DISCOVERY</span><h3>Explore Nakuru</h3><p>Build a relaxed day around local sights, food, nature and memorable stops.</p><div class="experience-actions"><a class="experience-wa" href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20exploring%20Nakuru."><i class='bx bxl-whatsapp'></i> WhatsApp</a><a href="#booking">Plan this adventure <i class='bx bx-right-arrow-alt'></i></a></div></div></article>
-<article class="experience-card"><div class="experience-photo" style="background-image:url('gallery-05.jpg')"></div><div class="experience-body"><span>TAILOR-MADE TRAVEL</span><h3>Plan your own adventure</h3><p>Tell us what you want to see and we can help shape a simple plan around your stay.</p><div class="experience-actions"><a class="experience-wa" href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20plan%20a%20tailor-made%20adventure."><i class='bx bxl-whatsapp'></i> WhatsApp</a><a href="#booking">Plan this adventure <i class='bx bx-right-arrow-alt'></i></a></div></div></article>
-</div></div></section>
+            <i class="bx bx-chevron-right"></i>
+        </a>
 
-<section class="section dining-premium" id="dining"><div class="container split-feature"><div class="feature-image dining-image" style="background-image:url('gallery-13.jpg')"><div class="feature-badge"><i class='bx bx-restaurant'></i><span>DINING AT HOMEBASE</span></div></div><div class="feature-copy"><span class="eyebrow">DINE & UNWIND</span><h2>Good food, easy moments<br><em>& good company.</em></h2><p>Settle in for a relaxed meal, a catch-up with friends or a private occasion. Good food and warm hospitality belong at the heart of your stay.</p><div class="icon-points"><div><i class='bx bx-restaurant'></i><span><strong>Restaurant</strong>Fresh, relaxed dining.</span></div><div><i class='bx bx-coffee'></i><span><strong>Lounge</strong>Unwind, connect and recharge.</span></div><div><i class='bx bx-music'></i><span><strong>Private occasions</strong>Make your moments memorable.</span></div></div><a class="text-btn" href="#booking">Ask about dining <i class='bx bx-right-arrow-alt'></i></a></div></div></section>
 
-<section class="section events-premium" id="events"><div class="container events-wrap"><div class="events-copy"><span class="eyebrow">MEETINGS • EVENTS • GROUPS</span><h2>Bring people together.<br><em>Make it memorable.</em></h2><p>From team gatherings and family celebrations to private events, tell us what you are planning and we will help shape an experience that feels effortless.</p><div class="event-points"><span><i class='bx bx-group'></i> Group stays</span><span><i class='bx bx-briefcase'></i> Corporate gatherings</span><span><i class='bx bx-party'></i> Celebrations</span><span><i class='bx bx-calendar'></i> Private occasions</span></div><a class="btn btn-green" href="#booking">Plan your event <i class='bx bx-right-arrow-alt'></i></a></div><div class="event-card" style="background-image:url('gallery-04.jpg')"><div class="event-icon"><i class='bx bx-calendar-star'></i></div><span>HOMEBASE EVENTS</span><strong>Your occasion,<br>thoughtfully hosted.</strong><small>Groups • Meetings • Celebrations</small></div></div></section>
+        <a href="#dining">
+            <i class="bx bx-restaurant"></i>
 
-<section class="section gallery-premium" id="gallery"><div class="container"><div class="section-head-premium reveal"><div><span class="eyebrow">GALLERY</span><h2>See life at Homebase.</h2></div><p>A glimpse of the rooms, food, spaces and moments that make Homebase feel like home.</p></div><div class="gallery-grid premium-gallery" id="homeGalleryGrid">
-<button type="button" class="gallery-item gallery-home-item g1" style="background-image:url('gallery-01.jpg')" data-gallery-image="gallery-01.jpg" aria-label="View room photo"><span class="gallery-item-shade"></span><span class="gallery-item-caption"><i class='bx bx-expand-alt'></i></span></button>
-<button type="button" class="gallery-item gallery-home-item g2" style="background-image:url('gallery-13.jpg')" data-gallery-image="gallery-13.jpg" aria-label="View dining photo"><span class="gallery-item-shade"></span><span class="gallery-item-caption"><i class='bx bx-expand-alt'></i></span></button>
-<button type="button" class="gallery-item gallery-home-item g3" style="background-image:url('gallery-04.jpg')" data-gallery-image="gallery-04.jpg" aria-label="View events photo"><span class="gallery-item-shade"></span><span class="gallery-item-caption"><i class='bx bx-expand-alt'></i></span></button>
-<button type="button" class="gallery-item gallery-home-item g4" style="background-image:url('gallery-14.jpg')" data-gallery-image="gallery-14.jpg" aria-label="View experience photo"><span class="gallery-item-shade"></span><span class="gallery-item-caption"><i class='bx bx-expand-alt'></i></span></button>
-<button type="button" class="gallery-item gallery-home-item g5" style="background-image:url('gallery-16.jpg')" data-gallery-image="gallery-16.jpg" aria-label="View Nakuru photo"><span class="gallery-item-shade"></span><span class="gallery-item-caption"><i class='bx bx-expand-alt'></i></span></button>
-</div></div></section>
-<div class="home-gallery-lightbox" id="homeGalleryLightbox" aria-hidden="true" hidden><button type="button" class="home-gallery-lightbox-close" id="homeGalleryClose" aria-label="Close"><i class='bx bx-x'></i></button><button type="button" class="home-gallery-lightbox-arrow prev" id="homeGalleryPrev" aria-label="Previous"><i class='bx bx-chevron-left'></i></button><figure class="home-gallery-lightbox-content"><img src="" id="homeGalleryLightboxImage" alt=""></figure><button type="button" class="home-gallery-lightbox-arrow next" id="homeGalleryNext" aria-label="Next"><i class='bx bx-chevron-right'></i></button></div>
+            <span>
+                <b>Dining</b>
+                <small>Fresh food &amp; easy moments</small>
+            </span>
 
-<section class="trust-band"><div class="container trust-grid"><div><strong>5.0</strong><span class="stars">★★★★★</span><small>The Homebase experience</small></div><div><i class='bx bx-bed'></i><span><b>Stay</b>Rest well in Nakuru</span></div><div><i class='bx bx-map'></i><span><b>Explore</b>Explore Nakuru</span></div><div><i class='bx bx-heart'></i><span><b>Hospitality</b>Warm, personal service</span></div></div></section>
+            <i class="bx bx-chevron-right"></i>
+        </a>
 
-<section class="section booking-premium" id="booking"><div class="container booking-grid"><div class="booking-copy"><span class="eyebrow eyebrow-gold">RESERVATIONS & ENQUIRIES</span><h2>Let’s plan your<br><em>Nakuru stay.</em></h2><p>Tell us what you need and our team will come back with availability, rates and options for rooms, dining, tours or events.</p><div class="contact-stack"><a href="tel:+254716109785"><i class='bx bxs-phone-call'></i><span>+254 716 109 785</span></a><a href="https://wa.me/254716109785" target="_blank"><i class='bx bxl-whatsapp'></i><span>Chat on WhatsApp</span></a><a href="mailto:info@homebasegardens.co.ke"><i class='bx bx-envelope'></i><span>info@homebasegardens.co.ke</span></a></div></div>
-<form class="booking-form" id="bookingForm"><div class="form-title"><span>QUICK ENQUIRY</span><strong>Tell us what you have in mind.</strong></div><div class="form-row"><label>Name<input id="name" name="name" required placeholder="Your name"></label><label>Phone<input id="phone" name="phone" required placeholder="07xx xxx xxx"></label></div><label>I'm interested in<select id="interest" name="interest"><option>Accommodation</option><option>Tours & Safaris</option><option>Restaurant / Lounge</option><option>Event / Group Booking</option></select></label><div class="form-row"><label>Date<input id="date" name="booking_date" type="date"></label><label>Guests<input id="guests" name="guests" type="number" min="1" value="1"></label></div><label>Message<textarea id="message" name="message" rows="4" placeholder="Dates, plans, questions or special requests..."></textarea></label><button class="btn btn-gold full" type="submit">Send Enquiry <i class='bx bxs-send'></i></button><small>Static site: your enquiry opens WhatsApp with the details you enter.</small></form></div></section>
 
-<section class="section contact-premium" id="contact"><div class="container contact-card"><div><span class="eyebrow">FIND US</span><h2>Kiamunyi • Nakuru<br><em>Kenya.</em></h2><p>Homebase Gardens Hotel & Tours, Kiamunyi, Nakuru.</p></div><div class="contact-actions"><a class="btn btn-green" href="https://www.google.com/maps/search/?api=1&query=Homebase+Gardens+Nakuru" target="_blank" rel="noopener"><i class='bx bx-map'></i> Find us</a><a class="btn btn-soft" href="tel:+254716109785"><i class='bx bx-phone'></i> Call Homebase</a></div></div></section>
+        <a href="#experiences">
+            <i class="bx bx-map-alt"></i>
+
+            <span>
+                <b>Explore</b>
+                <small>Nakuru adventures</small>
+            </span>
+
+            <i class="bx bx-chevron-right"></i>
+        </a>
+
+
+        <a href="#events">
+            <i class="bx bx-calendar-event"></i>
+
+            <span>
+                <b>Events</b>
+                <small>Meetings &amp; celebrations</small>
+            </span>
+
+            <i class="bx bx-chevron-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     DISCOVER / PRIORITY MARKETPLACE
+============================================================== -->
+<section
+    class="section priority-marketplace"
+    id="discover"
+>
+
+    <div class="container">
+
+        <div class="priority-head reveal">
+
+            <div>
+
+                <span class="eyebrow">
+                    DISCOVER HOMEBASE
+                </span>
+
+                <h2>
+                    Stay, dine &amp; explore —
+                    all from one Homebase.
+                </h2>
+
+            </div>
+
+
+            <p>
+                Settle in, explore Nakuru and take care of the
+                little things — all from one convenient base.
+            </p>
+
+        </div>
+
+
+        <div class="priority-grid reveal">
+
+            <a
+                class="priority-card priority-tour"
+                href="#experiences"
+            >
+
+                <span class="priority-no">
+                    01
+                </span>
+
+                <i class="bx bx-map-alt"></i>
+
+                <div>
+
+                    <small>
+                        TOUR &amp; TRAVEL
+                    </small>
+
+                    <h3>
+                        See more of Nakuru
+                    </h3>
+
+                    <p>
+                        Wildlife, nature, local discoveries and
+                        tailor-made trips for every kind of traveller.
+                    </p>
+
+                    <strong>
+                        Plan an adventure
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+            <a
+                class="priority-card priority-stay"
+                href="#stay"
+            >
+
+                <span class="priority-no">
+                    02
+                </span>
+
+                <i class="bx bx-bed"></i>
+
+                <div>
+
+                    <small>
+                        ACCOMMODATION
+                    </small>
+
+                    <h3>
+                        Settle in &amp; stay awhile
+                    </h3>
+
+                    <p>
+                        A welcoming base for business, family
+                        getaways, weekends and group travel.
+                    </p>
+
+                    <strong>
+                        View our rooms
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+            <a
+                class="priority-card priority-market"
+                href="#market"
+            >
+
+                <span class="priority-no">
+                    03
+                </span>
+
+                <i class="bx bx-store-alt"></i>
+
+                <div>
+
+                    <small>
+                        MINI-MARKET
+                    </small>
+
+                    <h3>
+                        Pick up the essentials
+                    </h3>
+
+                    <p>
+                        Keep everyday essentials close at hand
+                        during your stay.
+                    </p>
+
+                    <strong>
+                        Discover essentials
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </strong>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     MINI MARKET
+============================================================== -->
+<section
+    class="section mini-market"
+    id="market"
+>
+
+    <div class="container market-wrap">
+
+        <div>
+
+            <span class="eyebrow">
+                MINI-MARKET
+            </span>
+
+            <h2>
+                Everyday essentials for a more comfortable stay.
+            </h2>
+
+            <p>
+                A convenient place for groceries, household essentials
+                and those last-minute things you need while you are away.
+            </p>
+
+            <a
+                class="btn btn-green"
+                href="#booking"
+            >
+                Make an enquiry
+                <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+        </div>
+
+
+        <div
+            class="market-points"
+            style="background-image:url('gallery-02.jpg')"
+        >
+
+            <div>
+
+                <i class="bx bx-check"></i>
+
+                <span>
+                    <b>Local &amp; convenient</b>
+                    Find useful everyday essentials close by.
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <i class="bx bx-check"></i>
+
+                <span>
+                    <b>Easy enquiries</b>
+                    Ask first, plan ahead and visit with confidence.
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <i class="bx bx-check"></i>
+
+                <span>
+                    <b>A marketplace that grows</b>
+                    More products and trusted local businesses
+                    can be added over time.
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     INTRO
+============================================================== -->
+<section
+    class="section intro-premium"
+    style="background-image:url('gallery-01.jpg')"
+>
+
+    <div class="container two-col-intro">
+
+        <div>
+
+            <span class="eyebrow">
+                THE HOMEBASE EXPERIENCE
+            </span>
+
+            <h2>
+                A better stay,
+                <br>
+                <em>grounded in Nakuru.</em>
+            </h2>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                Homebase Gardens is a welcoming base for comfortable
+                stays, easy dining, local experiences and time well spent
+                in Nakuru.
+            </p>
+
+            <p class="muted">
+                Whether you are here for business, a family getaway,
+                a celebration or a safari adventure, Homebase Gardens
+                gives you a comfortable place to slow down — and a
+                convenient base for discovering Nakuru.
+            </p>
+
+            <a
+                class="text-btn"
+                href="#booking"
+            >
+                Plan your visit
+                <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     ACCOMMODATION
+============================================================== -->
+<section
+    class="section stay-premium"
+    id="stay"
+>
+
+    <div class="container">
+
+        <div class="section-head-premium reveal">
+
+            <div>
+
+                <span class="eyebrow">
+                    ACCOMMODATION
+                </span>
+
+                <h2>
+                    Rooms made for
+                    <br>
+                    <em>real rest.</em>
+                </h2>
+
+            </div>
+
+
+            <div>
+
+                <p>
+                    Choose the room that fits your trip.
+                    Send us an enquiry for current rates,
+                    availability and a smooth arrival.
+                </p>
+
+                <a
+                    class="text-btn"
+                    href="#booking"
+                >
+                    Check rates
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="room-grid premium-rooms">
+
+
+            <!-- ROOM 1 -->
+            <article class="room-card premium-room">
+
+                <div
+                    class="room-photo"
+                    style="background-image:url('gallery-01.jpg')"
+                >
+
+                    <span class="room-number">
+                        01
+                    </span>
+
+                    <span class="room-tag">
+                        <i class="bx bx-star"></i>
+                        A guest favourite
+                    </span>
+
+                </div>
+
+
+                <div class="room-body">
+
+                    <span class="card-kicker">
+                        HOMEBASE STAY
+                    </span>
+
+                    <h3>
+                        Comfort Room
+                    </h3>
+
+                    <p>
+                        A calm, comfortable room for short stays,
+                        business trips and easy weekends in Nakuru.
+                    </p>
+
+
+                    <div class="amenity-row">
+
+                        <span>
+                            <i class="bx bx-wifi"></i>
+                            Wi-Fi
+                        </span>
+
+                        <span>
+                            <i class="bx bx-coffee"></i>
+                            Breakfast
+                        </span>
+
+                        <span>
+                            <i class="bx bx-check-shield"></i>
+                            Comfort
+                        </span>
+
+                    </div>
+
+
+                    <div class="listing-actions">
+
+                        <a
+                            class="btn btn-wa"
+                            href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20a%20Comfort%20Room."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bx bxl-whatsapp"></i>
+                            WhatsApp enquiry
+                        </a>
+
+                        <a
+                            class="btn btn-gold room-action"
+                            href="#booking"
+                            data-room="Comfort Room"
+                        >
+                            <i class="bx bx-calendar-check"></i>
+                            Check availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ROOM 2 -->
+            <article class="room-card premium-room">
+
+                <div
+                    class="room-photo"
+                    style="background-image:url('gallery-03.jpg')"
+                >
+
+                    <span class="room-number">
+                        02
+                    </span>
+
+                    <span class="room-tag">
+                        <i class="bx bx-star"></i>
+                        A guest favourite
+                    </span>
+
+                </div>
+
+
+                <div class="room-body">
+
+                    <span class="card-kicker">
+                        HOMEBASE STAY
+                    </span>
+
+                    <h3>
+                        Family Stay
+                    </h3>
+
+                    <p>
+                        A practical, welcoming option when you are
+                        travelling with family or friends.
+                    </p>
+
+
+                    <div class="amenity-row">
+
+                        <span>
+                            <i class="bx bx-wifi"></i>
+                            Wi-Fi
+                        </span>
+
+                        <span>
+                            <i class="bx bx-coffee"></i>
+                            Breakfast
+                        </span>
+
+                        <span>
+                            <i class="bx bx-check-shield"></i>
+                            Comfort
+                        </span>
+
+                    </div>
+
+
+                    <div class="listing-actions">
+
+                        <a
+                            class="btn btn-wa"
+                            href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20a%20Family%20Stay."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bx bxl-whatsapp"></i>
+                            WhatsApp enquiry
+                        </a>
+
+                        <a
+                            class="btn btn-gold room-action"
+                            href="#booking"
+                            data-room="Family Stay"
+                        >
+                            <i class="bx bx-calendar-check"></i>
+                            Check availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- ROOM 3 -->
+            <article class="room-card premium-room">
+
+                <div
+                    class="room-photo"
+                    style="background-image:url('gallery-06.jpg')"
+                >
+
+                    <span class="room-number">
+                        03
+                    </span>
+
+                    <span class="room-tag">
+                        <i class="bx bx-star"></i>
+                        A guest favourite
+                    </span>
+
+                </div>
+
+
+                <div class="room-body">
+
+                    <span class="card-kicker">
+                        HOMEBASE STAY
+                    </span>
+
+                    <h3>
+                        Garden Stay
+                    </h3>
+
+                    <p>
+                        A relaxed base for travellers who want comfort,
+                        convenience and a welcoming atmosphere.
+                    </p>
+
+
+                    <div class="amenity-row">
+
+                        <span>
+                            <i class="bx bx-wifi"></i>
+                            Wi-Fi
+                        </span>
+
+                        <span>
+                            <i class="bx bx-coffee"></i>
+                            Breakfast
+                        </span>
+
+                        <span>
+                            <i class="bx bx-check-shield"></i>
+                            Comfort
+                        </span>
+
+                    </div>
+
+
+                    <div class="listing-actions">
+
+                        <a
+                            class="btn btn-wa"
+                            href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20a%20Garden%20Stay."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bx bxl-whatsapp"></i>
+                            WhatsApp enquiry
+                        </a>
+
+                        <a
+                            class="btn btn-gold room-action"
+                            href="#booking"
+                            data-room="Garden Stay"
+                        >
+                            <i class="bx bx-calendar-check"></i>
+                            Check availability
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     EXPERIENCES
+============================================================== -->
+<section
+    class="section experience-premium"
+    id="experiences"
+>
+
+    <div class="container">
+
+        <div class="section-head-premium light reveal">
+
+            <div>
+
+                <span class="eyebrow eyebrow-gold">
+                    EXPERIENCES
+                </span>
+
+                <h2>
+                    Go beyond the
+                    <br>
+                    <em>front door.</em>
+                </h2>
+
+            </div>
+
+
+            <div>
+
+                <p>
+                    Discover wildlife, landscapes and local highlights
+                    around Nakuru with experiences planned around your stay.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="experience-grid">
+
+
+            <!-- EXPERIENCE 1 -->
+            <article class="experience-card">
+
+                <div
+                    class="experience-photo"
+                    style="background-image:url('gallery-14.jpg')"
+                ></div>
+
+
+                <div class="experience-body">
+
+                    <span>
+                        WILDLIFE &amp; NATURE
+                    </span>
+
+                    <h3>
+                        Lake Nakuru &amp; wildlife
+                    </h3>
+
+                    <p>
+                        Make time for the landscapes and wildlife
+                        that make the Nakuru region special.
+                    </p>
+
+
+                    <div class="experience-actions">
+
+                        <a
+                            class="experience-wa"
+                            href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20Lake%20Nakuru%20and%20wildlife."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bx bxl-whatsapp"></i>
+                            WhatsApp
+                        </a>
+
+                        <a href="#booking">
+                            Plan this adventure
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- EXPERIENCE 2 -->
+            <article class="experience-card">
+
+                <div
+                    class="experience-photo"
+                    style="background-image:url('gallery-16.jpg')"
+                ></div>
+
+
+                <div class="experience-body">
+
+                    <span>
+                        LOCAL DISCOVERY
+                    </span>
+
+                    <h3>
+                        Explore Nakuru
+                    </h3>
+
+                    <p>
+                        Build a relaxed day around local sights,
+                        food, nature and memorable stops.
+                    </p>
+
+
+                    <div class="experience-actions">
+
+                        <a
+                            class="experience-wa"
+                            href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20enquire%20about%20exploring%20Nakuru."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bx bxl-whatsapp"></i>
+                            WhatsApp
+                        </a>
+
+                        <a href="#booking">
+                            Plan this adventure
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- EXPERIENCE 3 -->
+            <article class="experience-card">
+
+                <div
+                    class="experience-photo"
+                    style="background-image:url('gallery-05.jpg')"
+                ></div>
+
+
+                <div class="experience-body">
+
+                    <span>
+                        TAILOR-MADE TRAVEL
+                    </span>
+
+                    <h3>
+                        Plan your own adventure
+                    </h3>
+
+                    <p>
+                        Tell us what you want to see and we can help
+                        shape a simple plan around your stay.
+                    </p>
+
+
+                    <div class="experience-actions">
+
+                        <a
+                            class="experience-wa"
+                            href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20plan%20a%20tailor-made%20adventure."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="bx bxl-whatsapp"></i>
+                            WhatsApp
+                        </a>
+
+                        <a href="#booking">
+                            Plan this adventure
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     DINING
+============================================================== -->
+<section
+    class="section dining-premium"
+    id="dining"
+>
+
+    <div class="container split-feature">
+
+        <div
+            class="feature-image dining-image"
+            style="background-image:url('gallery-13.jpg')"
+        >
+
+            <div class="feature-badge">
+
+                <i class="bx bx-restaurant"></i>
+
+                <span>
+                    DINING AT HOMEBASE
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="feature-copy">
+
+            <span class="eyebrow">
+                DINE &amp; UNWIND
+            </span>
+
+            <h2>
+                Good food, easy moments
+                <br>
+                <em>&amp; good company.</em>
+            </h2>
+
+            <p>
+                Settle in for a relaxed meal, a catch-up with friends
+                or a private occasion. Good food and warm hospitality
+                belong at the heart of your stay.
+            </p>
+
+
+            <div class="icon-points">
+
+                <div>
+
+                    <i class="bx bx-restaurant"></i>
+
+                    <span>
+                        <strong>Restaurant</strong>
+                        Fresh, relaxed dining.
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <i class="bx bx-coffee"></i>
+
+                    <span>
+                        <strong>Lounge</strong>
+                        Unwind, connect and recharge.
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <i class="bx bx-music"></i>
+
+                    <span>
+                        <strong>Private occasions</strong>
+                        Make your moments memorable.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <a
+                class="text-btn"
+                href="#booking"
+            >
+                Ask about dining
+                <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     EVENTS
+============================================================== -->
+<section
+    class="section events-premium"
+    id="events"
+>
+
+    <div class="container events-wrap">
+
+        <div class="events-copy">
+
+            <span class="eyebrow">
+                MEETINGS • EVENTS • GROUPS
+            </span>
+
+            <h2>
+                Bring people together.
+                <br>
+                <em>Make it memorable.</em>
+            </h2>
+
+            <p>
+                From team gatherings and family celebrations to private
+                events, tell us what you are planning and we will help
+                shape an experience that feels effortless.
+            </p>
+
+
+            <div class="event-points">
+
+                <span>
+                    <i class="bx bx-group"></i>
+                    Group stays
+                </span>
+
+                <span>
+                    <i class="bx bx-briefcase"></i>
+                    Corporate gatherings
+                </span>
+
+                <span>
+                    <i class="bx bx-party"></i>
+                    Celebrations
+                </span>
+
+                <span>
+                    <i class="bx bx-calendar"></i>
+                    Private occasions
+                </span>
+
+            </div>
+
+
+            <a
+                class="btn btn-green"
+                href="#booking"
+            >
+                Plan your event
+                <i class="bx bx-right-arrow-alt"></i>
+            </a>
+
+        </div>
+
+
+        <div
+            class="event-card"
+            style="background-image:url('gallery-04.jpg')"
+        >
+
+            <div class="event-icon">
+                <i class="bx bx-calendar-star"></i>
+            </div>
+
+            <span>
+                HOMEBASE EVENTS
+            </span>
+
+            <strong>
+                Your occasion,
+                <br>
+                thoughtfully hosted.
+            </strong>
+
+            <small>
+                Groups • Meetings • Celebrations
+            </small>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     GALLERY
+============================================================== -->
+<section
+    class="section gallery-premium"
+    id="gallery"
+>
+
+    <div class="container">
+
+        <div class="section-head-premium reveal">
+
+            <div>
+
+                <span class="eyebrow">
+                    GALLERY
+                </span>
+
+                <h2>
+                    See life at Homebase.
+                </h2>
+
+            </div>
+
+
+            <p>
+                A glimpse of the rooms, food, spaces and moments
+                that make Homebase feel like home.
+            </p>
+
+        </div>
+
+
+        <div
+            class="gallery-grid premium-gallery"
+            id="homeGalleryGrid"
+        >
+
+
+            <button
+                type="button"
+                class="gallery-item gallery-home-item g1"
+                style="background-image:url('gallery-01.jpg')"
+                data-gallery-image="gallery-01.jpg"
+                aria-label="View room photo"
+            >
+                <span
+                    class="gallery-item-shade"
+                    aria-hidden="true"
+                ></span>
+
+                <span
+                    class="gallery-item-caption"
+                    aria-hidden="true"
+                >
+                    <i class="bx bx-expand-alt"></i>
+                </span>
+            </button>
+
+
+            <button
+                type="button"
+                class="gallery-item gallery-home-item g2"
+                style="background-image:url('gallery-13.jpg')"
+                data-gallery-image="gallery-13.jpg"
+                aria-label="View dining photo"
+            >
+                <span
+                    class="gallery-item-shade"
+                    aria-hidden="true"
+                ></span>
+
+                <span
+                    class="gallery-item-caption"
+                    aria-hidden="true"
+                >
+                    <i class="bx bx-expand-alt"></i>
+                </span>
+            </button>
+
+
+            <button
+                type="button"
+                class="gallery-item gallery-home-item g3"
+                style="background-image:url('gallery-04.jpg')"
+                data-gallery-image="gallery-04.jpg"
+                aria-label="View events photo"
+            >
+                <span
+                    class="gallery-item-shade"
+                    aria-hidden="true"
+                ></span>
+
+                <span
+                    class="gallery-item-caption"
+                    aria-hidden="true"
+                >
+                    <i class="bx bx-expand-alt"></i>
+                </span>
+            </button>
+
+
+            <button
+                type="button"
+                class="gallery-item gallery-home-item g4"
+                style="background-image:url('gallery-14.jpg')"
+                data-gallery-image="gallery-14.jpg"
+                aria-label="View experience photo"
+            >
+                <span
+                    class="gallery-item-shade"
+                    aria-hidden="true"
+                ></span>
+
+                <span
+                    class="gallery-item-caption"
+                    aria-hidden="true"
+                >
+                    <i class="bx bx-expand-alt"></i>
+                </span>
+            </button>
+
+
+            <button
+                type="button"
+                class="gallery-item gallery-home-item g5"
+                style="background-image:url('gallery-16.jpg')"
+                data-gallery-image="gallery-16.jpg"
+                aria-label="View Nakuru photo"
+            >
+                <span
+                    class="gallery-item-shade"
+                    aria-hidden="true"
+                ></span>
+
+                <span
+                    class="gallery-item-caption"
+                    aria-hidden="true"
+                >
+                    <i class="bx bx-expand-alt"></i>
+                </span>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     GALLERY LIGHTBOX
+============================================================== -->
+<div
+    class="home-gallery-lightbox"
+    id="homeGalleryLightbox"
+    aria-hidden="true"
+    hidden
+    role="dialog"
+    aria-modal="true"
+    aria-label="Gallery image viewer"
+>
+
+    <button
+        type="button"
+        class="home-gallery-lightbox-close"
+        id="homeGalleryClose"
+        aria-label="Close gallery"
+    >
+        <i class="bx bx-x"></i>
+    </button>
+
+
+    <button
+        type="button"
+        class="home-gallery-lightbox-arrow prev"
+        id="homeGalleryPrev"
+        aria-label="Previous image"
+    >
+        <i class="bx bx-chevron-left"></i>
+    </button>
+
+
+    <figure class="home-gallery-lightbox-content">
+
+        <img
+            src=""
+            id="homeGalleryLightboxImage"
+            alt=""
+        >
+
+    </figure>
+
+
+    <button
+        type="button"
+        class="home-gallery-lightbox-arrow next"
+        id="homeGalleryNext"
+        aria-label="Next image"
+    >
+        <i class="bx bx-chevron-right"></i>
+    </button>
+
+</div>
+
+
+<!-- =============================================================
+     TRUST BAND
+============================================================== -->
+<section class="trust-band">
+
+    <div class="container trust-grid">
+
+        <div>
+
+            <strong>5.0</strong>
+
+            <span
+                class="stars"
+                aria-label="5 out of 5 stars"
+            >
+                ★★★★★
+            </span>
+
+            <small>
+                The Homebase experience
+            </small>
+
+        </div>
+
+
+        <div>
+
+            <i class="bx bx-bed"></i>
+
+            <span>
+                <b>Stay</b>
+                Rest well in Nakuru
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <i class="bx bx-map"></i>
+
+            <span>
+                <b>Explore</b>
+                Explore Nakuru
+            </span>
+
+        </div>
+
+
+        <div>
+
+            <i class="bx bx-heart"></i>
+
+            <span>
+                <b>Hospitality</b>
+                Warm, personal service
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     BOOKING / ENQUIRY
+============================================================== -->
+<section
+    class="section booking-premium"
+    id="booking"
+>
+
+    <div class="container booking-grid">
+
+
+        <!-- BOOKING COPY -->
+        <div class="booking-copy">
+
+            <span class="eyebrow eyebrow-gold">
+                RESERVATIONS &amp; ENQUIRIES
+            </span>
+
+            <h2>
+                Let’s plan your
+                <br>
+                <em>Nakuru stay.</em>
+            </h2>
+
+            <p>
+                Tell us what you need and our team will come back
+                with availability, rates and options for rooms,
+                dining, tours or events.
+            </p>
+
+
+            <div class="contact-stack">
+
+                <a href="tel:+254716109785">
+
+                    <i class="bx bxs-phone-call"></i>
+
+                    <span>
+                        +254 716 109 785
+                    </span>
+
+                </a>
+
+
+                <a
+                    href="https://wa.me/254716109785"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+
+                    <i class="bx bxl-whatsapp"></i>
+
+                    <span>
+                        Chat on WhatsApp
+                    </span>
+
+                </a>
+
+
+                <a href="mailto:info@homebasegardens.co.ke">
+
+                    <i class="bx bx-envelope"></i>
+
+                    <span>
+                        info@homebasegardens.co.ke
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOOKING FORM -->
+        <form
+            class="booking-form"
+            id="bookingForm"
+        >
+
+            <div class="form-title">
+
+                <span>
+                    QUICK ENQUIRY
+                </span>
+
+                <strong>
+                    Tell us what you have in mind.
+                </strong>
+
+            </div>
+
+
+            <div class="form-row">
+
+                <label for="name">
+                    Name
+
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        required
+                        placeholder="Your name"
+                        autocomplete="name"
+                    >
+                </label>
+
+
+                <label for="phone">
+                    Phone
+
+                    <input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        required
+                        placeholder="07xx xxx xxx"
+                        autocomplete="tel"
+                    >
+                </label>
+
+            </div>
+
+
+            <label for="interest">
+                I'm interested in
+
+                <select
+                    id="interest"
+                    name="interest"
+                >
+                    <option value="Accommodation">
+                        Accommodation
+                    </option>
+
+                    <option value="Tours & Safaris">
+                        Tours &amp; Safaris
+                    </option>
+
+                    <option value="Restaurant / Lounge">
+                        Restaurant / Lounge
+                    </option>
+
+                    <option value="Event / Group Booking">
+                        Event / Group Booking
+                    </option>
+                </select>
+
+            </label>
+
+
+            <div class="form-row">
+
+                <label for="date">
+                    Date
+
+                    <input
+                        id="date"
+                        name="booking_date"
+                        type="date"
+                    >
+                </label>
+
+
+                <label for="guests">
+                    Guests
+
+                    <input
+                        id="guests"
+                        name="guests"
+                        type="number"
+                        min="1"
+                        value="1"
+                    >
+                </label>
+
+            </div>
+
+
+            <label for="message">
+                Message
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Dates, plans, questions or special requests..."
+                ></textarea>
+
+            </label>
+
+
+            <button
+                class="btn btn-gold full"
+                type="submit"
+            >
+                Send Enquiry
+                <i class="bx bxs-send"></i>
+            </button>
+
+
+            <small>
+                Static site: your enquiry opens WhatsApp
+                with the details you enter.
+            </small>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- =============================================================
+     CONTACT
+============================================================== -->
+<section
+    class="section contact-premium"
+    id="contact"
+>
+
+    <div class="container contact-card">
+
+        <div>
+
+            <span class="eyebrow">
+                FIND US
+            </span>
+
+            <h2>
+                Kiamunyi • Nakuru
+                <br>
+                <em>Kenya.</em>
+            </h2>
+
+            <p>
+                Homebase Gardens Hotel &amp; Tours,
+                Kiamunyi, Nakuru.
+            </p>
+
+        </div>
+
+
+        <div class="contact-actions">
+
+            <a
+                class="btn btn-green"
+                href="https://www.google.com/maps/search/?api=1&query=Homebase+Gardens+Nakuru"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="bx bx-map"></i>
+                Find us
+            </a>
+
+
+            <a
+                class="btn btn-soft"
+                href="tel:+254716109785"
+            >
+                <i class="bx bx-phone"></i>
+                Call Homebase
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
 </main>
 
-<div class="floating-contact" aria-label="Quick contact options"><a class="floating-action floating-whatsapp" href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="bx bxl-whatsapp"></i><span>WhatsApp</span></a><a class="floating-action floating-call" href="tel:+254716109785" aria-label="Call Homebase"><i class="bx bx-phone-call"></i><span>Call</span></a></div>
-<footer class="footer"><div class="container footer-main"><div class="footer-brand"><img src="logo.png" alt="Homebase Gardens Hotel and Tours" class="footer-logo"><p>A welcoming place to stay, eat, connect and explore Nakuru — with genuine Kenyan hospitality at the heart of it.</p><div class="socials"><a href="https://web.facebook.com/people/Homebase-gardens-hotel/100053003872298/" target="_blank" rel="noopener" aria-label="Facebook"><i class="bx bxl-facebook"></i></a><a href="https://www.instagram.com/homebasegardens/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bx bxl-instagram"></i></a><a href="https://wa.me/254716109785" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a></div></div><div><h4>Explore Homebase</h4><a href="#stay">Accommodation</a><a href="#dining">Dining</a><a href="#experiences">Experiences</a><a href="#events">Meetings &amp; Events</a><a href="gallery.html">Gallery</a></div><div><h4>Let’s connect</h4><a href="tel:+254716109785"><i class="bx bx-phone"></i> +254 716 109 785</a><a href="https://wa.me/254716109785" target="_blank" rel="noopener"><i class="bx bxl-whatsapp"></i> WhatsApp us</a><a href="mailto:info@homebasegardens.co.ke"><i class="bx bx-envelope"></i> info@homebasegardens.co.ke</a><span><i class="bx bx-map"></i> Kiamunyi, Nakuru</span></div></div><div class="container footer-bottom"><span>&copy; <span id="year"></span> Homebase Gardens Hotel &amp; Tours. All rights reserved.</span></div></footer>
 
+<!-- =============================================================
+     FLOATING CONTACT
+============================================================== -->
+<div
+    class="floating-contact"
+    aria-label="Quick contact options"
+>
+
+    <a
+        class="floating-action floating-whatsapp"
+        href="https://wa.me/254716109785?text=Hello%20Homebase%20Gardens%2C%20I%20would%20like%20to%20make%20an%20enquiry."
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+    >
+
+        <i class="bx bxl-whatsapp"></i>
+
+        <span>
+            WhatsApp
+        </span>
+
+    </a>
+
+
+    <a
+        class="floating-action floating-call"
+        href="tel:+254716109785"
+        aria-label="Call Homebase"
+    >
+
+        <i class="bx bx-phone-call"></i>
+
+        <span>
+            Call
+        </span>
+
+    </a>
+
+</div>
+
+
+<!-- =============================================================
+     FOOTER
+============================================================== -->
+<footer class="footer">
+
+    <div class="container footer-main">
+
+
+        <!-- FOOTER BRAND -->
+        <div class="footer-brand">
+
+            <img
+                src="logo.png"
+                alt="Homebase Gardens Hotel and Tours"
+                class="footer-logo"
+            >
+
+            <p>
+                A welcoming place to stay, eat, connect and explore
+                Nakuru — with genuine Kenyan hospitality at the heart of it.
+            </p>
+
+
+            <div class="socials">
+
+                <a
+                    href="https://web.facebook.com/people/Homebase-gardens-hotel/100053003872298/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                >
+                    <i class="bx bxl-facebook"></i>
+                </a>
+
+
+                <a
+                    href="https://www.instagram.com/homebasegardens/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                >
+                    <i class="bx bxl-instagram"></i>
+                </a>
+
+
+                <a
+                    href="https://wa.me/254716109785"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="WhatsApp"
+                >
+                    <i class="bx bxl-whatsapp"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER NAVIGATION -->
+        <div>
+
+            <h4>
+                Explore Homebase
+            </h4>
+
+            <a href="#stay">
+                Accommodation
+            </a>
+
+            <a href="#dining">
+                Dining
+            </a>
+
+            <a href="#experiences">
+                Experiences
+            </a>
+
+            <a href="#events">
+                Meetings &amp; Events
+            </a>
+
+            <a href="gallery.html">
+                Gallery
+            </a>
+
+        </div>
+
+
+        <!-- FOOTER CONTACT -->
+        <div>
+
+            <h4>
+                Let’s connect
+            </h4>
+
+            <a href="tel:+254716109785">
+                <i class="bx bx-phone"></i>
+                +254 716 109 785
+            </a>
+
+            <a
+                href="https://wa.me/254716109785"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="bx bxl-whatsapp"></i>
+                WhatsApp us
+            </a>
+
+            <a href="mailto:info@homebasegardens.co.ke">
+                <i class="bx bx-envelope"></i>
+                info@homebasegardens.co.ke
+            </a>
+
+            <span>
+                <i class="bx bx-map"></i>
+                Kiamunyi, Nakuru
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER BOTTOM -->
+    <div class="container footer-bottom">
+
+        <span>
+            &copy;
+            <span id="year"></span>
+            Homebase Gardens Hotel &amp; Tours.
+            All rights reserved.
+        </span>
+
+    </div>
+
+</footer>
+
+
+<!-- =============================================================
+     INLINE JAVASCRIPT
+============================================================== -->
 <script>
-(function(){
-  const today=new Date().toISOString().split('T')[0];
-  document.querySelectorAll('input[type="date"]').forEach(i=>i.min=today);
-  const wa='254716109785';
-  function openWhatsApp(form){
-    const fd=new FormData(form);
-    const lines=['Hello Homebase Gardens, I would like to make an enquiry.','',`Name: ${fd.get('name')||''}`,`Phone: ${fd.get('phone')||''}`,`Interest: ${fd.get('interest')||'Accommodation'}`,`Date: ${fd.get('booking_date')||'Not specified'}`,`Guests: ${fd.get('guests')||'1'}`,`Message: ${fd.get('message')||'Please share availability and current rates.'}`];
-    window.open(`https://wa.me/${wa}?text=${encodeURIComponent(lines.join('\n'))}`,'_blank','noopener');
-  }
-  const booking=document.getElementById('bookingForm');
-  if(booking) booking.addEventListener('submit',function(e){e.preventDefault();openWhatsApp(booking);});
-  const hero=document.getElementById('heroBookingForm');
-  if(hero) hero.addEventListener('submit',function(e){e.preventDefault();const fd=new FormData(hero);const lines=['Hello Homebase Gardens, I would like to check availability.','',`Name: ${fd.get('name')}`,`Phone: ${fd.get('phone')}`,`Arrival: ${fd.get('booking_date')}`,`Guests: ${fd.get('guests')}`];window.open(`https://wa.me/${wa}?text=${encodeURIComponent(lines.join('\n'))}`,'_blank','noopener');});
-  document.querySelectorAll('.room-action').forEach(a=>a.addEventListener('click',function(){const interest=document.getElementById('interest');const msg=document.getElementById('message');if(interest)interest.value='Accommodation';if(msg)msg.value='I would like availability and the current rate for the '+this.dataset.room+'.';}));
-  const items=[...document.querySelectorAll('.gallery-home-item')],box=document.getElementById('homeGalleryLightbox'),img=document.getElementById('homeGalleryLightboxImage');let idx=0;
-  function show(i){if(!box||!img||!items.length)return;idx=(i+items.length)%items.length;img.src=items[idx].dataset.galleryImage;img.alt='Homebase gallery photo';box.hidden=false;box.setAttribute('aria-hidden','false');document.body.classList.add('gallery-lightbox-open');}
-  function hide(){if(!box)return;box.hidden=true;box.setAttribute('aria-hidden','true');if(img)img.src='';document.body.classList.remove('gallery-lightbox-open');}
-  items.forEach((x,i)=>x.addEventListener('click',()=>show(i)));document.getElementById('homeGalleryClose')?.addEventListener('click',hide);document.getElementById('homeGalleryPrev')?.addEventListener('click',()=>show(idx-1));document.getElementById('homeGalleryNext')?.addEventListener('click',()=>show(idx+1));box?.addEventListener('click',e=>{if(e.target===box)hide();});document.addEventListener('keydown',e=>{if(!box||box.hidden)return;if(e.key==='Escape')hide();if(e.key==='ArrowLeft')show(idx-1);if(e.key==='ArrowRight')show(idx+1);});
+(function () {
+
+    "use strict";
+
+
+    /* =========================================================
+       CONSTANTS
+    ========================================================== */
+
+    const WHATSAPP_NUMBER = "254716109785";
+
+
+    /* =========================================================
+       TODAY / DATE INPUTS
+    ========================================================== */
+
+    function setMinimumDates() {
+
+        const now = new Date();
+
+        const year = now.getFullYear();
+
+        const month = String(
+            now.getMonth() + 1
+        ).padStart(2, "0");
+
+        const day = String(
+            now.getDate()
+        ).padStart(2, "0");
+
+        const today = `${year}-${month}-${day}`;
+
+        document
+            .querySelectorAll('input[type="date"]')
+            .forEach(function (input) {
+
+                input.min = today;
+
+            });
+
+    }
+
+    setMinimumDates();
+
+
+    /* =========================================================
+       SAFE FORM VALUE
+    ========================================================== */
+
+    function getValue(form, name, fallback = "") {
+
+        const value = new FormData(form).get(name);
+
+        if (
+            value === null ||
+            value === undefined ||
+            String(value).trim() === ""
+        ) {
+            return fallback;
+        }
+
+        return String(value).trim();
+
+    }
+
+
+    /* =========================================================
+       OPEN WHATSAPP
+    ========================================================== */
+
+    function openWhatsApp(form) {
+
+        if (!form) {
+            return;
+        }
+
+
+        const name = getValue(
+            form,
+            "name",
+            "Not provided"
+        );
+
+        const phone = getValue(
+            form,
+            "phone",
+            "Not provided"
+        );
+
+        const interest = getValue(
+            form,
+            "interest",
+            "Accommodation"
+        );
+
+        const date = getValue(
+            form,
+            "booking_date",
+            "Not specified"
+        );
+
+        const guests = getValue(
+            form,
+            "guests",
+            "1"
+        );
+
+        const message = getValue(
+            form,
+            "message",
+            "Please share availability and current rates."
+        );
+
+
+        const lines = [
+
+            "Hello Homebase Gardens, I would like to make an enquiry.",
+
+            "",
+
+            `Name: ${name}`,
+
+            `Phone: ${phone}`,
+
+            `Interest: ${interest}`,
+
+            `Date: ${date}`,
+
+            `Guests: ${guests}`,
+
+            `Message: ${message}`
+
+        ];
+
+
+        const whatsappURL =
+            `https://wa.me/${WHATSAPP_NUMBER}?text=` +
+            encodeURIComponent(
+                lines.join("\n")
+            );
+
+
+        window.open(
+            whatsappURL,
+            "_blank",
+            "noopener,noreferrer"
+        );
+
+    }
+
+
+    /* =========================================================
+       MAIN BOOKING FORM
+    ========================================================== */
+
+    const bookingForm =
+        document.getElementById("bookingForm");
+
+
+    if (bookingForm) {
+
+        bookingForm.addEventListener(
+            "submit",
+            function (event) {
+
+                event.preventDefault();
+
+                openWhatsApp(bookingForm);
+
+            }
+        );
+
+    }
+
+
+    /* =========================================================
+       HERO BOOKING FORM
+    ========================================================== */
+
+    const heroBookingForm =
+        document.getElementById("heroBookingForm");
+
+
+    if (heroBookingForm) {
+
+        heroBookingForm.addEventListener(
+            "submit",
+            function (event) {
+
+                event.preventDefault();
+
+
+                const name = getValue(
+                    heroBookingForm,
+                    "name",
+                    "Not provided"
+                );
+
+                const phone = getValue(
+                    heroBookingForm,
+                    "phone",
+                    "Not provided"
+                );
+
+                const arrival = getValue(
+                    heroBookingForm,
+                    "booking_date",
+                    "Not specified"
+                );
+
+                const guests = getValue(
+                    heroBookingForm,
+                    "guests",
+                    "2"
+                );
+
+
+                const lines = [
+
+                    "Hello Homebase Gardens, I would like to check availability.",
+
+                    "",
+
+                    `Name: ${name}`,
+
+                    `Phone: ${phone}`,
+
+                    `Arrival: ${arrival}`,
+
+                    `Guests: ${guests}`
+
+                ];
+
+
+                const whatsappURL =
+                    `https://wa.me/${WHATSAPP_NUMBER}?text=` +
+                    encodeURIComponent(
+                        lines.join("\n")
+                    );
+
+
+                window.open(
+                    whatsappURL,
+                    "_blank",
+                    "noopener,noreferrer"
+                );
+
+            }
+        );
+
+    }
+
+
+    /* =========================================================
+       ROOM AVAILABILITY BUTTONS
+    ========================================================== */
+
+    document
+        .querySelectorAll(".room-action")
+        .forEach(function (button) {
+
+            button.addEventListener(
+                "click",
+                function () {
+
+                    const room =
+                        this.dataset.room ||
+                        "selected room";
+
+
+                    const interest =
+                        document.getElementById("interest");
+
+                    const message =
+                        document.getElementById("message");
+
+
+                    if (interest) {
+
+                        interest.value =
+                            "Accommodation";
+
+                    }
+
+
+                    if (message) {
+
+                        message.value =
+                            "I would like availability and the current rate for the " +
+                            room +
+                            ".";
+
+                    }
+
+                }
+            );
+
+        });
+
+
+    /* =========================================================
+       GALLERY LIGHTBOX
+    ========================================================== */
+
+    const galleryItems = [
+        ...document.querySelectorAll(
+            ".gallery-home-item"
+        )
+    ];
+
+
+    const galleryBox =
+        document.getElementById(
+            "homeGalleryLightbox"
+        );
+
+
+    const galleryImage =
+        document.getElementById(
+            "homeGalleryLightboxImage"
+        );
+
+
+    const galleryClose =
+        document.getElementById(
+            "homeGalleryClose"
+        );
+
+
+    const galleryPrevious =
+        document.getElementById(
+            "homeGalleryPrev"
+        );
+
+
+    const galleryNext =
+        document.getElementById(
+            "homeGalleryNext"
+        );
+
+
+    let galleryIndex = 0;
+
+
+    /* =========================================================
+       SHOW GALLERY IMAGE
+    ========================================================== */
+
+    function showGalleryImage(index) {
+
+        if (
+            !galleryBox ||
+            !galleryImage ||
+            !galleryItems.length
+        ) {
+            return;
+        }
+
+
+        galleryIndex =
+            (index + galleryItems.length) %
+            galleryItems.length;
+
+
+        const selectedItem =
+            galleryItems[galleryIndex];
+
+
+        const imageSource =
+            selectedItem.dataset.galleryImage;
+
+
+        if (!imageSource) {
+            return;
+        }
+
+
+        galleryImage.src =
+            imageSource;
+
+
+        galleryImage.alt =
+            selectedItem.getAttribute("aria-label") ||
+            "Homebase Gardens gallery photo";
+
+
+        galleryBox.hidden = false;
+
+        galleryBox.setAttribute(
+            "aria-hidden",
+            "false"
+        );
+
+
+        document.body.classList.add(
+            "gallery-lightbox-open"
+        );
+
+
+        if (galleryClose) {
+
+            galleryClose.focus();
+
+        }
+
+    }
+
+
+    /* =========================================================
+       HIDE GALLERY
+    ========================================================== */
+
+    function hideGallery() {
+
+        if (!galleryBox) {
+            return;
+        }
+
+
+        galleryBox.hidden = true;
+
+        galleryBox.setAttribute(
+            "aria-hidden",
+            "true"
+        );
+
+
+        if (galleryImage) {
+
+            galleryImage.src = "";
+
+            galleryImage.alt = "";
+
+        }
+
+
+        document.body.classList.remove(
+            "gallery-lightbox-open"
+        );
+
+    }
+
+
+    /* =========================================================
+       GALLERY ITEM EVENTS
+    ========================================================== */
+
+    galleryItems.forEach(
+        function (item, index) {
+
+            item.addEventListener(
+                "click",
+                function () {
+
+                    showGalleryImage(index);
+
+                }
+            );
+
+        }
+    );
+
+
+    /* =========================================================
+       GALLERY CONTROLS
+    ========================================================== */
+
+    if (galleryClose) {
+
+        galleryClose.addEventListener(
+            "click",
+            hideGallery
+        );
+
+    }
+
+
+    if (galleryPrevious) {
+
+        galleryPrevious.addEventListener(
+            "click",
+            function () {
+
+                showGalleryImage(
+                    galleryIndex - 1
+                );
+
+            }
+        );
+
+    }
+
+
+    if (galleryNext) {
+
+        galleryNext.addEventListener(
+            "click",
+            function () {
+
+                showGalleryImage(
+                    galleryIndex + 1
+                );
+
+            }
+        );
+
+    }
+
+
+    /* =========================================================
+       CLOSE WHEN CLICKING BACKDROP
+    ========================================================== */
+
+    if (galleryBox) {
+
+        galleryBox.addEventListener(
+            "click",
+            function (event) {
+
+                if (
+                    event.target === galleryBox
+                ) {
+
+                    hideGallery();
+
+                }
+
+            }
+        );
+
+    }
+
+
+    /* =========================================================
+       KEYBOARD CONTROLS
+    ========================================================== */
+
+    document.addEventListener(
+        "keydown",
+        function (event) {
+
+            if (
+                !galleryBox ||
+                galleryBox.hidden
+            ) {
+                return;
+            }
+
+
+            if (event.key === "Escape") {
+
+                hideGallery();
+
+                return;
+
+            }
+
+
+            if (event.key === "ArrowLeft") {
+
+                showGalleryImage(
+                    galleryIndex - 1
+                );
+
+                return;
+
+            }
+
+
+            if (event.key === "ArrowRight") {
+
+                showGalleryImage(
+                    galleryIndex + 1
+                );
+
+            }
+
+        }
+    );
+
+
+    /* =========================================================
+       FOOTER YEAR
+    ========================================================== */
+
+    const yearElement =
+        document.getElementById("year");
+
+
+    if (yearElement) {
+
+        yearElement.textContent =
+            new Date().getFullYear();
+
+    }
+
+
+    /* =========================================================
+       MOBILE NAVIGATION
+       This works even if script.js is unavailable.
+    ========================================================== */
+
+    const menuToggle =
+        document.getElementById("menuToggle");
+
+
+    const nav =
+        document.getElementById("nav");
+
+
+    if (
+        menuToggle &&
+        nav
+    ) {
+
+        function closeMenu() {
+
+            nav.classList.remove("active");
+
+            menuToggle.setAttribute(
+                "aria-expanded",
+                "false"
+            );
+
+            menuToggle.setAttribute(
+                "aria-label",
+                "Open menu"
+            );
+
+            const icon =
+                menuToggle.querySelector("i");
+
+
+            if (icon) {
+
+                icon.classList.remove(
+                    "bx-x"
+                );
+
+                icon.classList.add(
+                    "bx-menu"
+                );
+
+            }
+
+        }
+
+
+        function toggleMenu() {
+
+            const isOpen =
+                nav.classList.toggle("active");
+
+
+            menuToggle.setAttribute(
+                "aria-expanded",
+                String(isOpen)
+            );
+
+
+            menuToggle.setAttribute(
+                "aria-label",
+                isOpen
+                    ? "Close menu"
+                    : "Open menu"
+            );
+
+
+            const icon =
+                menuToggle.querySelector("i");
+
+
+            if (icon) {
+
+                icon.classList.toggle(
+                    "bx-menu",
+                    !isOpen
+                );
+
+                icon.classList.toggle(
+                    "bx-x",
+                    isOpen
+                );
+
+            }
+
+        }
+
+
+        menuToggle.addEventListener(
+            "click",
+            function (event) {
+
+                event.stopPropagation();
+
+                toggleMenu();
+
+            }
+        );
+
+
+        nav
+            .querySelectorAll("a")
+            .forEach(function (link) {
+
+                link.addEventListener(
+                    "click",
+                    function () {
+
+                        if (
+                            window.innerWidth <= 900
+                        ) {
+
+                            closeMenu();
+
+                        }
+
+                    }
+                );
+
+            });
+
+
+        document.addEventListener(
+            "click",
+            function (event) {
+
+                if (
+                    window.innerWidth > 900
+                ) {
+                    return;
+                }
+
+
+                if (
+                    !nav.contains(event.target) &&
+                    !menuToggle.contains(event.target)
+                ) {
+
+                    closeMenu();
+
+                }
+
+            }
+        );
+
+
+        window.addEventListener(
+            "resize",
+            function () {
+
+                if (
+                    window.innerWidth > 900
+                ) {
+
+                    closeMenu();
+
+                }
+
+            }
+        );
+
+    }
+
+
 })();
 </script>
+
+
+<!-- =============================================================
+     EXTERNAL JAVASCRIPT
+============================================================== -->
 <script src="script.js" defer></script>
-</body></html>
+
+</body>
+</html>
