@@ -1661,3 +1661,292 @@ button:focus-visible{
     }
 
 }
+/* =========================================================
+   FINAL GALLERY FIX
+   Prevent gallery items from collapsing into thin strips
+========================================================= */
+
+.gallery-premium{
+    width:100%;
+    overflow:hidden;
+}
+
+.gallery-premium .container{
+    width:min(1240px, calc(100% - 40px));
+    margin:0 auto;
+}
+
+.premium-gallery{
+    display:grid !important;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr)) !important;
+
+    grid-auto-rows:260px !important;
+
+    grid-auto-flow:row !important;
+
+    gap:16px !important;
+
+    width:100%;
+
+    align-items:stretch !important;
+}
+
+
+/* ---------------------------------------------------------
+   EVERY GALLERY ITEM
+--------------------------------------------------------- */
+
+.premium-gallery .gallery-item{
+    position:relative !important;
+
+    display:block !important;
+
+    width:100% !important;
+    height:260px !important;
+
+    min-width:0 !important;
+    min-height:260px !important;
+
+    margin:0 !important;
+    padding:0 !important;
+
+    border:0 !important;
+
+    border-radius:8px !important;
+
+    overflow:hidden !important;
+
+    background-repeat:no-repeat !important;
+    background-size:cover !important;
+    background-position:center !important;
+
+    box-sizing:border-box !important;
+
+    transform:none;
+
+    cursor:pointer;
+
+    appearance:none;
+
+    -webkit-appearance:none;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        filter .3s ease;
+}
+
+
+/* ---------------------------------------------------------
+   LARGE FEATURE IMAGES
+--------------------------------------------------------- */
+
+.premium-gallery .gallery-item.g1{
+    grid-column:span 2 !important;
+    grid-row:span 2 !important;
+
+    height:536px !important;
+    min-height:536px !important;
+}
+
+
+/* ---------------------------------------------------------
+   NORMAL IMAGES
+--------------------------------------------------------- */
+
+.premium-gallery .gallery-item.g2,
+.premium-gallery .gallery-item.g3,
+.premium-gallery .gallery-item.g4{
+    grid-column:span 1 !important;
+    grid-row:span 1 !important;
+
+    height:260px !important;
+    min-height:260px !important;
+}
+
+
+/* ---------------------------------------------------------
+   IMAGE OVERLAY
+--------------------------------------------------------- */
+
+.premium-gallery .gallery-item::before{
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:1;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0,0,0,0) 45%,
+            rgba(0,0,0,.45) 100%
+        );
+
+    pointer-events:none;
+
+    transition:.3s ease;
+}
+
+
+/* Keep existing pseudo elements from breaking layout */
+
+.premium-gallery .gallery-item::after{
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    z-index:2;
+
+    pointer-events:none;
+
+    background:transparent;
+}
+
+
+/* ---------------------------------------------------------
+   HOVER
+--------------------------------------------------------- */
+
+.premium-gallery .gallery-item:hover{
+    transform:translateY(-5px) !important;
+
+    box-shadow:
+        0 18px 40px rgba(0,0,0,.18);
+
+    filter:saturate(1.05);
+}
+
+.premium-gallery .gallery-item:hover::before{
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(0,0,0,.02),
+            rgba(0,0,0,.58)
+        );
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media(max-width:1050px){
+
+    .premium-gallery{
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr)) !important;
+
+        grid-auto-rows:240px !important;
+
+        gap:14px !important;
+    }
+
+    .premium-gallery .gallery-item{
+        height:240px !important;
+        min-height:240px !important;
+    }
+
+    .premium-gallery .gallery-item.g1{
+        grid-column:span 2 !important;
+        grid-row:span 2 !important;
+
+        height:494px !important;
+        min-height:494px !important;
+    }
+
+    .premium-gallery .gallery-item.g2,
+    .premium-gallery .gallery-item.g3,
+    .premium-gallery .gallery-item.g4{
+        grid-column:span 1 !important;
+        grid-row:span 1 !important;
+
+        height:240px !important;
+        min-height:240px !important;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:700px){
+
+    .gallery-premium{
+        padding-top:55px !important;
+    }
+
+    .gallery-premium .container{
+        width:calc(100% - 28px) !important;
+    }
+
+    .premium-gallery{
+        display:grid !important;
+
+        grid-template-columns:
+            1fr !important;
+
+        grid-auto-rows:230px !important;
+
+        gap:12px !important;
+    }
+
+    .premium-gallery .gallery-item,
+    .premium-gallery .gallery-item.g1,
+    .premium-gallery .gallery-item.g2,
+    .premium-gallery .gallery-item.g3,
+    .premium-gallery .gallery-item.g4{
+        grid-column:1 !important;
+        grid-row:auto !important;
+
+        width:100% !important;
+
+        height:230px !important;
+        min-height:230px !important;
+    }
+
+    .premium-gallery .gallery-item.g1{
+        height:280px !important;
+        min-height:280px !important;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL PHONES
+========================================================= */
+
+@media(max-width:420px){
+
+    .gallery-premium .container{
+        width:calc(100% - 24px) !important;
+    }
+
+    .premium-gallery{
+        grid-auto-rows:210px !important;
+        gap:10px !important;
+    }
+
+    .premium-gallery .gallery-item,
+    .premium-gallery .gallery-item.g2,
+    .premium-gallery .gallery-item.g3,
+    .premium-gallery .gallery-item.g4{
+        height:210px !important;
+        min-height:210px !important;
+    }
+
+    .premium-gallery .gallery-item.g1{
+        height:260px !important;
+        min-height:260px !important;
+    }
+
+}
